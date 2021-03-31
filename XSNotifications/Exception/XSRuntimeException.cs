@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace XSNotifications.Exception
+﻿namespace XSNotifications.Exception
 {
-    public class XSRuntimeException: System.Exception
+    public class XSRuntimeException : System.Exception
     {
         public XSRuntimeException() { }
         public XSRuntimeException(string message) : base(message) { }

@@ -14,13 +14,13 @@ namespace XSNotifications
         public float Volume { get; set; }
 
         public int Index { get; set; }
-        
+
         public string AudioPath { get; set; }
         public string Content { get; set; }
         public string Icon { get; set; }
         public string SourceApp { get; set; }
         public string Title { get; set; }
-        
+
         public XSMessageType MessageType { get; set; }
 
         public XSNotification()

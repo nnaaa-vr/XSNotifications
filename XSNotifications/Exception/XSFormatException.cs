@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace XSNotifications.Exception
+﻿namespace XSNotifications.Exception
 {
-    public class XSFormatException: System.Exception
+    public class XSFormatException : System.Exception
     {
         public XSFormatException() { }
         public XSFormatException(string message) : base(message) { }

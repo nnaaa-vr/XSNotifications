@@ -1,6 +1,6 @@
 ﻿namespace XSNotifications.Exception
 {
-    public class XSNetworkException: System.Exception
+    public class XSNetworkException : System.Exception
     {
         public XSNetworkException() { }
         public XSNetworkException(string message) : base(message) { }

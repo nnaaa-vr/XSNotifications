@@ -1,9 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Net;
-using System.Threading.Tasks;
-using XSNotifications;
-using XSNotifications.Enum;
+﻿using XSNotifications;
 
 namespace XSNotificationsTestConsole
 {

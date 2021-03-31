@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using XSNotifications.Enum;
+﻿using XSNotifications.Enum;
 using XSNotifications.Exception;
 
 namespace XSNotifications.Helpers
