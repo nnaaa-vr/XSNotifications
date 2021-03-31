@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XSNotifications", "XSNotifications\XSNotifications.csproj", "{1A591245-8527-417E-B067-539EEE0EAAB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSNotificationsConsoleTest", "XSNotificationsConsoleTest\XSNotificationsConsoleTest.csproj", "{399703E1-1CC3-41E7-B906-E2D3EFD93327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A591245-8527-417E-B067-539EEE0EAAB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A591245-8527-417E-B067-539EEE0EAAB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A591245-8527-417E-B067-539EEE0EAAB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A591245-8527-417E-B067-539EEE0EAAB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{399703E1-1CC3-41E7-B906-E2D3EFD93327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399703E1-1CC3-41E7-B906-E2D3EFD93327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399703E1-1CC3-41E7-B906-E2D3EFD93327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399703E1-1CC3-41E7-B906-E2D3EFD93327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {529FE1A1-0804-4E80-BABF-2A8E695539A9}
+	EndGlobalSection
+EndGlobal
