@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>0.1</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Company>Square Hole Interactive</Company>
+    <Authors>んなあぁ</Authors>
+    <Description>Simple .NET library to send notifications to XSOverlay via UDP.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/nnaaa-vr/XSNotifications</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nnaaa-vr/XSNotifications</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageTags>SteamVR, OpenVR, XSOverlay</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

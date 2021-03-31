@@ -1,0 +1,1 @@
+Package available on NuGet. https://www.nuget.org/packages/XSNotifications/
