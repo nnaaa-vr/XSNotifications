@@ -25,6 +25,11 @@ namespace XSNotifications
         public XSNotifier() : this(null, null) { }
 
         /// <summary>
+        /// Finalizer for people forgetting this is an IDisposable.
+        /// </summary>
+        ~XSNotifier() => this.Dispose(); 
+
+        /// <summary>
         /// This constructor will bind the client to any available local port.
         /// </summary>
         /// <param name="_serverEndpoint">IPEndPoint for XSOverlay.</param>
