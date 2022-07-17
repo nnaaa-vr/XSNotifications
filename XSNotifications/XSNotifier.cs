@@ -44,6 +44,22 @@ namespace XSNotifications
         public XSNotifier(int _clientPort, int _serverPort) : this(new IPEndPoint(IPAddress.Parse("127.0.0.1"), _clientPort), new IPEndPoint(IPAddress.Parse("127.0.0.1"), _serverPort)) { }
 
         /// <summary>
+        /// This constructor will bind the client to the specified local port.
+        /// Server port is bound to endpoint on 127.0.0.1
+        /// </summary>
+        /// <param name="_clientPort">Client port. Null will bind to any available local port.</param>
+        /// <param name="_serverPort">XSOverlay port.</param>
+        public XSNotifier(int? _clientPort, int _serverPort) : this(_clientPort.HasValue ? new IPEndPoint(IPAddress.Parse("127.0.0.1"), _clientPort.Value) : null , new IPEndPoint(IPAddress.Parse("127.0.0.1"), _serverPort)) { }
+
+        /// <summary>
+        /// This constructor will bind the client to the specified local port.
+        /// Server port is bound to endpoint on 127.0.0.1
+        /// </summary>
+        /// <param name="_clientPort">Client port.</param>
+        /// <param name="_serverPort">XSOverlay port. Null will bind to 127.0.0.1 on internal default port.</param>
+        public XSNotifier(int _clientPort, int? _serverPort) : this(new IPEndPoint(IPAddress.Parse("127.0.0.1"), _clientPort), _serverPort.HasValue ? new IPEndPoint(IPAddress.Parse("127.0.0.1"), _serverPort.Value) : null) { }
+
+        /// <summary>
         /// This constructor will bind to the specified client and server endpoints.
         /// </summary>
         /// <param name="_clientEndpoint">Client endpoint. Null will bind to any available local port.</param>
